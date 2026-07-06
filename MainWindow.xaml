@@ -1,0 +1,19 @@
+﻿<Window x:Class="SimptomChek.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SimptomChek"
+        mc:Ignorable="d"
+        Title="SimptomChek" Height="600" Width="800" Background="#CDB4DB">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <ContentControl x:Name="MainContentControl" Margin="0,0,0,107"/>
+
+        <Button Content="Далее" Margin="10,442,10,84" Click="NextButton_Click" FontSize="20" FontFamily="Bahnschrift" Background="#FFFFAFCC"/>
+    </Grid>
+</Window>
